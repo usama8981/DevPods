@@ -5,10 +5,8 @@ target 'DevPods' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for DevPods
-
-    pod 'SwiftyDropbox', :path => '/Users/macbook/Desktop/SwiftyDropbox'
-
+  pod 'SwiftyDropbox', :git => 'https://github.com/usama8981/PodFiles.git', :branch => 'main'
+  pod 'Kingfisher'
   target 'DevPodsTests' do
     inherit! :search_paths
     # Pods for testing
